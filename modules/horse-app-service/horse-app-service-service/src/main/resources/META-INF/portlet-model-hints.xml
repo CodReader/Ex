@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+
+<model-hints>
+    <model name="com.bogdan.liferay.horseapp.service.model.Foo">
+        <field name="fooId" type="long"/>
+        <field name="groupId" type="long"/>
+        <field name="companyId" type="long"/>
+        <field name="userId" type="long"/>
+        <field name="userName" type="String"/>
+        <field name="createDate" type="Date"/>
+        <field name="modifiedDate" type="Date"/>
+        <field name="modelSpeed" type="int"/>
+        <field name="horseId" type="uuid"/>
+        <field name="status" type="int"/>
+        <field name="statusByUserId" type="long"/>
+        <field name="statusByUserName" type="String"/>
+        <field name="statusDate" type="Date"/>
+    </model>
+</model-hints>
+        <!--
+        <model name="com.bogdan.lifray.serviceapp.api.Horse">
+        <field name="id" type="uuid" />
+        <field name="modelSpeed" type="int" />
+        </model>-->

@@ -1,0 +1,10 @@
+dependencies {
+	compile project(":modules:horse-app-service:horse-app-service-api")
+	compileOnly project(":modules:horses-app-portlet")
+	compileOnly project(":modules:horse-generator-service")
+	compileOnly group: "com.liferay.portal", name: "release.portal.api"
+}
+buildService {
+	apiDir = "../horse-app-service-api/src/main/java"
+}
+group = "com.bogdan.liferay.horseapp.service"
